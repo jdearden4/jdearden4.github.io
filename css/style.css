@@ -20,6 +20,15 @@ h2 {
   line-height: 1.5;
 }
 
+.work-link {
+  font-weight: 800;
+  color: black;
+}
+
+.work-link:hover{
+  color: #545871;
+}
+
 .flex-container  {
   display: -webkit-box;
   display: -webkit-flex;
@@ -234,7 +243,7 @@ img.social {
     border-top: 1px solid rgba(255,255,255,0.3); 
     border-bottom: 1px solid rgba(0,0,0,0.1); 
   }
-  
+
   .navigation li:last-of-type a {
     border-bottom: none;
   }
