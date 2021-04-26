@@ -7,185 +7,195 @@
 
 
 	<title>Julia Dearden's Portfolio</title>
+    <link rel="icon" type="image/png" href="img/favicon.png"/>
 	<link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/foundation.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
 	<header> 
-	<nav class="padding-normal">
-		<div class="flex-container">
+	   <nav>
+		<div class="nav-parent">
             <img src="img/jd.png" alt="Julia Dearden Logo" class="JD"/>
   			<h1 class="logo"><a href="#">Julia Dearden</a></h1>
 			<ul class="navigation">
                 <li><a id="work-link" href="#work">Work</a></li>
 			    <li><a id="about-link" href="#about">About</a></li>
 			    <li><a id="resume-link" href="#resume">Resume</a></li>
-			    <li><a id="contact-link" href="#contact">Contact</a></li>
 			</ul>
 		</div>
 	</nav>
 </header>
-<div id="work" class="overview padding-normal">
-    <div class="row">
-        <div class="col-xs-12 col-md-7">
-            <div class="work-photos" id="flex-parent">
-              <img src="img/newsroom.png" alt="R7 Newsroom" class="work"/>
+
+<section id="work">
+    <div class="row"> <!--CONTAINER-->
+        <div class="col-xs-12 col-md-4">
+            <div class="hov">
+                <img src="img/snyk.png" alt="Partnership Page" class="work"/>
+                <div class="content" id="content">
+                    <a class="text" href="https://www.rapid7.com/partners/snyk" target=_blank>SEE FOR YOURSELF</a>
+                </div>
             </div>
         </div>
-        <div class="col-xs-12 col-md-5" id="flex-parent">
-            <div class="work-box">
-            	<h1><span>Rapid7 Newsroom</span></h1>
-                <h2>HTML, CSS, JS, Sketch, InDesign, Illustrator</h2>
-            	<p>Revamped our old, 3-column basic layout to an interactive and informative newsroom. Process included collecting user needs and site requirements, creating wireframes with Sketch / InDesign / Illustrator, front end development, and QA engineering</p>
-                <a class="work-link" href="https://www.rapid7.com/about/news/" target=_blank>CHECK IT OUT</a>
-            </div>
+        <div class="col-xs-12 col-md-6">
+            <h1><span>Partnership Page</span></h1>
+            <h2>C#, .NET, HTML, SCSS</h2>
+            <p>Full-stack development of a new CMS page template and partnership page, including dynamically pulled in content and a new light theme</p>
         </div>
     </div>
-    <div class="row">
-        <div class="col-xs-12 col-md-7">
-            <div class="work-photos" id="flex-parent">
-              <img src="img/JHcourse.png" alt="Johns Hopkins Course" class="work"/>
+    <div class="row"> <!--CONTAINER-->
+        <div class="col-xs-12 col-md-4">
+            <div class="hov">
+                <img src="img/newsroom.png" alt="Newsroom" class="work"/>
+                <div class="content">
+                    <a class="text" href="https://www.rapid7.com/about/news" target=_blank>SEE FOR YOURSELF</a>
+                </div>
             </div>
         </div>
-        <div class="col-xs-12 col-md-5" id="flex-parent">
-            <div class="work-box">
-            	<h1>Johns Hopkins Web Development Course</h1>
-                <h2> HTML, JS, Bootstrap, CSS, Ajax</h2>
-            	<p>Completed a 5-week course from Johns Hopkins and Coursera on the fundamentals of front end web development. End result included a single page, responsive web appplication for a local restaurant</p>
-                <a class="work-link" href="https://jdearden4.github.io/coursera-test/mod2_solution/" target=_blank>PROJECT 1</a><br>
-                <a class="work-link" href="https://jdearden4.github.io/coursera-test/mod3_solution/" target=_blank>PROJECT 2</a><br>
-                <a class="work-link" href="https://jdearden4.github.io/coursera-test/mod4_solution/" target=_blank>PROJECT 3 (JS)</a><br>
-                <a class="work-link" href="https://jdearden4.github.io/coursera-test/mod5_solution/" target=_blank>PROJECT 4</a>
-            </div>
+        <div class="col-xs-12 col-md-6">
+        	<h1><span>Newsroom</span></h1>
+            <h2>HTML, CSS, JS, Sketch, InDesign, Illustrator</h2>
+        	<p>Revamped a simple 3-column basic layout to a completely new page template including a carousel header and dynamically pulled in content</p>
         </div>
     </div>
-    <div class="row"> <!--container-->
-        <div class="col-xs-12 col-md-7">
-            <div class="work-photos" id="flex-parent">
-              <img src="img/arcticWolf.png" alt="R7 Competitive Page" class="work"/>
+    <div class="row"> <!--CONTAINER-->
+        <div class="col-xs-12 col-md-4">
+            <div class="hov">
+                <img src="img/JHcourse.png" alt="Johns Hopkins Course" class="work"/>
+                <div class="content">
+                    <a class="text-multiple" href="https://jdearden4.github.io/coursera-test/mod2_solution/" target=_blank>PROJECT 1</a><br>
+                    <a class="text-multiple" href="https://jdearden4.github.io/coursera-test/mod3_solution/" target=_blank>PROJECT 2</a><br>
+                    <a class="text-multiple" href="https://jdearden4.github.io/coursera-test/mod4_solution/" target=_blank>PROJECT 3 (JS)</a><br>
+                    <a class="text-multiple" href="https://jdearden4.github.io/coursera-test/mod5_solution/" target=_blank>PROJECT 4</a>
+                </div>
             </div>
         </div>
-        <div class="col-xs-12 col-md-5" id="flex-parent">
-            <div class="work-box">
-            	<h1>Rapid7 Competitive Page</h1>
-                <h2>Adobe XD, HTML, CSS, Flexbox, Sass</h2>
-            	<p>Created a webpage showcasing how R7 stacks up against a top competitor with responsive tables. Page was used in various email campaigns and marketing content</p>
-                <a class="work-link" href="https://www.rapid7.com/solutions/replace/arctic-wolf/" target=_blank>CHECK IT OUT</a>
-            </div>
+        <div class="col-xs-12 col-md-6">
+        	<h1>Johns Hopkins Web Dev</h1>
+            <h2> HTML, JS, Bootstrap, CSS, Ajax</h2>
+        	<p>Completed a 5-week course from JH and Coursera and helped develop a single page, responsive web appplication for a local restaurant</p>
         </div>
     </div>
-    <div class="row">
-        <div class="col-xs-12 col-md-7">
-            <div class="work-photos" id="flex-parent">
-              <img src="img/abroadWebApp.png" alt="Study Abroad Web App" class="work"/>
+     <div class="row"> <!--CONTAINER-->
+        <div class="col-xs-12 col-md-4">
+            <div class="hov">
+                <img src="img/arcticWolf.png" alt="Competitive Page" class="work"/>
+                <div class="content">
+                    <a class="text" href="https://www.rapid7.com/solutions/replace/arctic-wolf/" target=_blank>SEE FOR YOURSELF</a>
+                </div>
             </div>
         </div>
-        <div class="col-xs-12 col-md-5" id="flex-parent">
-            <div class="work-box">
-                <h1>Study Abroad Web App</h1>
-                <h2>HTML, CSS, JS, Sketch, Mapbox, SQL, PHP</h2>
-                <p>Implemented a web application to help Connecticut College students find study abroad programs. Process included wireframing, conducting multiple rounds of user testing, creating a SQL database, and front / back end development </p>
-                <a class="work-link" href="http://saimap.digital.conncoll.edu/" target=_blank>CHECK IT OUT</a>
-            </div>
+        <div class="col-xs-12 col-md-6">
+        	<h1>Rapid7 Competitive Page</h1>
+            <h2>Adobe XD, HTML, CSS, Flexbox, Sass</h2>
+        	<p>Created a webpage showcasing how R7 stacks up against a top competitor using responsive tables
         </div>
     </div>
-    <div class="row">
-        <div class="col-xs-12 col-md-7">
-            <div class="work-photos" id="flex-parent">
-              <img src="img/dodger.png" alt="Dodger, EEL Inc." class="work"/>
+     <div class="row"> <!--CONTAINER-->
+        <div class="col-xs-12 col-md-4">
+            <div class="hov">
+                <img src="img/abroadWebApp.png" alt="Study Abroad Web App" class="work"/>
+                <div class="content">
+                    <a class="text" href="http://saimap.digital.conncoll.edu/" target=_blank>SEE FOR YOURSELF</a>
+                </div>
             </div>
         </div>
-        <div class="col-xs-12 col-md-5" id="flex-parent">
-            <div class="work-box">
-                <h1>Dodger - EEL Inc.</h1>
-                <h2>Unity 3D, C#, Photoshop</h2>
-                <p>Founded EEL Inc, a video game company based in New London, Connecticut, and developed our debut game "Dodger". Game was showcased at Connecticut College and won a peer award for most=creative game</p>
-                <a class="work-link" href="https://www.youtube.com/watch?v=c9wKpYM0IZo" target=_blank>TAKE A LOOK</a><br>
-                <a class="work-link" href="https://jdearden9.wixsite.com/eelinc" target=_blank>CHECK IT OUT</a>
-            </div>
+        <div class="col-xs-12 col-md-6">
+            <h1>Study Abroad Web App</h1>
+            <h2>HTML, CSS, JS, Sketch, Mapbox, SQL, PHP</h2>
+            <p>Implemented a map web application to help Connecticut College students find different study abroad programs</p>
         </div>
     </div>
-    <div class="row">
-        <div class="col-xs-12 col-md-7">
-            <div class="work-photos" id="flex-parent">
-              <video src="img/brew.mov" controls Autoplay="autoplay" alt="Portland Maine Brew App" class="work"/>
+    <div class="row"> <!--CONTAINER-->
+        <div class="col-xs-12 col-md-4">
+            <div class="hov">
+                <img src="img/dodger.png" alt="Dodger, EEL Inc." class="work"/>
+                <div class="content">
+                    <a class="text" href="https://www.youtube.com/watch?v=c9wKpYM0IZo" target=_blank>SEE FOR YOURSELF</a><br>
+                </div>
             </div>
         </div>
-        <div class="col-xs-12 col-md-5" id="flex-parent">
-            <div class="work-box">
-                <h1>Portland Maine Brew App</h1>
-                <h2>Adobe Animate, ActionScript, Illustrator</h2>
-                <p>Developed an app that explores the Portland, Maine beer scene, complete with an interactive map of breweries. Hosted locally only (for the time being!)</p>
-            </div>
+        <div class="col-xs-12 col-md-6">
+            <h1>Dodger - EEL Inc.</h1>
+            <h2>Unity 3D, C#, Photoshop</h2>
+            <p>Founded EEL. Inc and developed our debut game <b>Dodger</b>, which won a peer award for "most creative game"</p>
         </div>
     </div>
-</div>
-<div id="about" class="about-me">
-    <div class="row">
-        <div class="col-xs-12 col-md-7" id="flex-parent">
-            <div class="personal-description">
-                <h1>My drive is to create empathetic experiences within technology.</h1>
-                    <h2>I have a strong, technical background that is complemented with a solid foundation of design-thinking skills. As a result of working in various technical, creative and strategic positions, I am a cross-functional problem solver who is passionate about front end design</h2>
-            </div>
+
+    <div class="row"> <!--CONTAINER-->
+        <div class="col-xs-12 col-md-4">
+            <video src="img/brew.mov" controls Autoplay="autoplay" alt="Portland Maine Brew App" class="work"/>
         </div>
-        <div class="col-xs-12 col-md-5">
-            <div class="personal-photograph" id="flex-parent">
-              <img src="img/JD-portrait.png" alt="Julia Dearden" class="JD-portrait"/>
-            </div>
-        </div>
+        <div class="col-xs-12 col-md-6">
+            <h1>Portland Maine Brew App</h1>
+            <h2>Adobe Animate, ActionScript, Illustrator</h2>
+            <p>Developed a local app that explores the Portland, Maine beer scene, complete with an interactive map of breweries</p>
         </div>
     </div>
-</div>
-<div id="resume" class="resume padding-bigger">
+</section>
+<section id="about">
     <div class="row">
-        <div class="col-xs-12 col-md-3 resume-margin">
+        <div class="col-xs-12 col-md-8 desc">
+            <h1>My drive is to create empathetic experiences within technology.</h1>
+            <p>I have a strong, technical background that is complemented with a solid foundation of design-thinking skills. As a result of working in various technical, creative and strategic positions, I am a cross-functional problem solver who is passionate about front end design.</p>
+            <div class="social-container">
+                <a href="mailto:jdearden44@gmail.com"><img src="img/mail.svg" alt="Email" class="social"></a>
+                <a href="https://www.linkedin.com/in/julia-dearden/" target=_blank><img src="img/li.svg" alt="LinkedIn" class="social"></a>
+                <a href="https://github.com/jdearden4" target=_blank><img src="img/git.svg" alt="Github" class="social"></a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-4 personal-photograph">
+          <img src="img/JD-portrait.png" alt="Julia Dearden" class="JD-portrait"/>
+        </div>
+    </div>
+</section>
+<section id="resume">
+    <div class="row">
+        <div class="col-xs-12 col-md-5 card-display">
             <h1>Basics</h1>
-            <h1 class="lower">Basics</h1>
-            <b>B.A in CS,</b> Connecticut College<br />
-            <b id="current">Front End Web Engineer,</b> Rapid7<br />
-            <b>Plant Mom,</b> Boston MA
+            <p><span class="mauve">B.A in CS,</span> Connecticut College<br />
+            <span class="mauve">Front End Web Engineer,</span> Rapid7<br />
+            <span class="mauve">Plant Mom,</span> Boston MA</p>
         </div>
-        <div class="col-xs-12 col-md-3 resume-margin">
+        <div class="col-xs-12 col-md-5 card-display">
             <h1>Experience</h1>
-            <h1 class="lower">Experience</h1>
-            <b>Growth Strategy Associate, </b>Rapid7<br />
-            <b>Product Management Intern, </b>Cengage<br />
-            <b>Graphic Designer, </b>Freelance
+            <p><span class="purple">Growth Strategy Associate, </span>Rapid7<br />
+            <span class="purple">Product Management Intern, </span>Centgage<br />
+            <span class="purple">Graphic Designer, </span>Freelance<br /><p>
         </div>
-        <div class="col-xs-12 col-md-3 resume-margin">
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-5 card-display">
             <h1>Stack</h1>
-            <h1 class="lower">Stack</h1>
-            <b>FE: </b>HTML, CSS, Sass, Foundation, JS<br />
-            <b>BE: </b>C#, .NET Framework, Python
+            <p><span class="dark-purple">FE: </span>HTML, CSS, Sass, Foundation, Bootstrap, JS<br />
+            <span class="dark-purple">BE: </span>C#, .NET Framework, Python</p>
         </div>
-        <div class="col-xs-12 col-md-3 resume-margin">
+        <div class="col-xs-12 col-md-5 card-display">
             <h1>Other</h1>
-            <h1 class="lower">Other</h1>
-            <b>Github, Episerver, </b>Marketo, GA, Jenkins
+            <p><span class="brown">Github, Episerver, </span>Marketo, GA, Jenkins</p>
         </div>
     </div>
-</div>
-<div id="contact" class="contact-me padding-bigger">
-    <div class="row-social">
-        <div class="col-xs-4 right">
-            <a href="mailto:jdearden44@gmail.com"><img src="img/email.svg" alt="Email" class="social"></a>
-        </div>
-        <div class="col-xs-4 center">
-            <a href="https://www.linkedin.com/in/julia-dearden/" target=_blank><img src="img/linkedin.svg" alt="LinkedIn" class="social"></a>
-        </div>
-        <div class="col-xs-4 left">
-            <a href="https://github.com/jdearden4" target=_blank><img src="img/github.svg" alt="Github" class="social"></a>
-        </div>
-    </div>
- </div>
+</section>
+
 
 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/Gruntfile.js"></script>
 <script src="js/index.js"></script>
 <script src="js/script.js"></script>
+<script src="js/myScript.js"></script>
 
 </body>
 </html>
+
+
+
+
+<div id="projectThumbs">
+    <div class="wrapper"> <a class="project">
+        <div class="intrinsic" style=""></div>
+      </a> 
+    </div>
+</div>

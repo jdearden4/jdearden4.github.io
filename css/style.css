@@ -1,94 +1,43 @@
+
 <style>
 
-/* *********** overaching *********** */
-* {padding: 0; margin: 0;}
 
-.padding-normal {
-  padding: 20px 45px 30px 45px;
+.parent {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
 }
 
-.padding-bigger {
-  padding: 100px 45px 105px 45px;
-}
-
-#about {
-  padding: 0;
-}
-
-h2 {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-.work-link {
-  font-weight: 800;
-  color: black;
-}
-
-.work-link:hover{
-  color: #545871;
-}
-
-.flex-container  {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+/*nav*/
+.nav-parent  {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
-  padding: 55px 0 25px 0;
-  font-family: "henriette", sans-serif;
-}
-
-.row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-
-}
-
-#flex-parent {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: space-around;
-    flex: 1;
-}
-
-.work-box p {
-  padding: 10px 0 10px 0;
-}
-
-/* *********** images and videos *********** */
-video {
-  margin: 20px 25px 30px 20px;
-  width: 95%;
-}
+  border-bottom: 2px solid #ebefef;
+  padding: 50px 50px 30px 50px}
 
 .JD {
   max-width: 10%;
+  flex: 1;
 }
 
-.JD-portrait {
-  width: 100%;
-}
-
-/* *********** logo *********** */
-.logo {
-  padding: 0 0 0 .45em;
-}
 
 .logo a {
-  color: rgb(28, 24, 22);
+  color: black;
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+}
+
+.logo a:hover {
+  color: #c6b5bd;
 }
 
 .logo, .navigation {
     list-style: none;
     text-transform: uppercase;
     display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
 }
 
 .logo a, .navigation a {
@@ -96,23 +45,22 @@ video {
     letter-spacing: .15rem;
 }
 
+ul.navigation {
+  margin-left: 0;
+}
+
+.navigation {
+  display:flex;
+}
+
 img.logo {
   max-width: 20%;
 }
 
-/* *********** nav *********** */
-.navigation  {
-  display: flex;
-}
 .navigation a {
   display: block;
   padding: 1em;
   color: black;
-}
-
-.navigation a:hover {
-    color: #545871;
-    font-weight: 800;
 }
 
 #work-link:hover {
@@ -131,80 +79,213 @@ img.logo {
   color: #bdb9d9;
 }
 
-/* *********** work section *********** */
-.work-box {
+/********/
+
+#work {
+  background-color: white;
+  padding-top: 35px;
+}
+
+#work .row {
+    justify-content: space-around;
+    flex: 1;
+    padding: 0px 10px 25px 10px;
+}
+
+#work h1 {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+#work h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+#work p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  line-height: 2;
+  font-size: 16px;
+
+
+}
+
+video {
+  margin: 20px 25px 30px 20px;
+  width: 95%;
+}
+
+#work img{
+  box-shadow: 0 3px 6px rgb(0 0 0 / 10%);
+}
+
+.hov {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%)
+}
+
+.content {
+  opacity: 0;
+  font-size: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #6D7189;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  text-align: center;
   margin-bottom: 25px;
 }
 
-.work-photos {
-  margin-bottom: 25px;
-  box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+.hov .content:hover {
+  opacity: 1;
 }
 
-
-/* *********** about me section *********** */
-.about-me {
-  background-image: linear-gradient(#dcdae5, #dfdde8, #dedce7, #dcdae5, #d9d7e3, #d4d3dd);
+.hov .content .text {
+  height: 0;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  font-size: 24px;
+  color: white;
+  font-weight: 900;
+  position: relative;
+  top: 35%;
 }
 
-.personal-description {
-  align-self: center;
-  margin: 20px 45px 30px 45px;
+.hov .content .text-multiple {
+  height: 0;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  font-size: 24px;
+  color: white;
+  font-weight: 900;
+  position: relative;
+  top: 10%;
 }
 
-/* *********** resume section *********** */
-.resume-description {
-  padding: 5px 10px 5px 10px;
-}
-
-.text-center {
+.hov .content:hover .text {
+  opacity: 1;
+  transform: translateY(250px);
+  -webkit-transform: translateY(250px);
   text-align: center;
 }
 
-h1.lower {
-  margin-top: -46px;
-  opacity: 20%;
+/*about*/
+#about .row {
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding-left: 8%;
+  border-top: solid 1px #e0dfde;
 }
 
-.resume-margin {
-  margin-bottom: 15px;
-}
-
-/* *********** contact section *********** */
-.contact-me {
-  background-color: #c6b5bd;
-}
-
-img.social {
-  width: 75px;
-  margin-right: 15%;
+#about p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  padding-right: 20%;
 
 }
 
-.contact-description h1{
-  padding-bottom: 25px;
+#about h1 {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.5;
+  max-width: 80%;
+
 }
 
-.row-social {
+.social-contianer {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: center;
 }
 
-  .right {
-    text-align: right;
-  }
-  .center {
-    text-align: center;
-  }
-  .left {
-    text-align: left;
-  }
+.desc img {
+  height: 60px;
+  margin-right: 30px;
+}
+
+
+/*resume*/
+#resume {
+  background-image: url('../img/tester.png');
+  background-size: contain;
+  background-color: #ebefef;
+  padding: 70px 0 100px 0;
+  background-repeat: no-repeat;
+
+}
+
+#resume .row {
+  text-align: center;
+  font-family: "henriette", sans-serif;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.card-display {
+  background: white;
+  padding: 20px 10px 30px 10px;
+  margin: 30px 20px 0 20px;
+  box-shadow: 0 2px 0 rgb(36 43 46 / 31%);
+}
+
+#resume h1 {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+#resume p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+#resume span {
+  font-weight: 700;
+}
+
+
+span.purple {
+  color: #b8b4d2;
+}
+
+span.mauve {
+  color: #c6b6bc;
+}
+
+span.brown {
+  color: #846042;
+}
+
+span.dark-purple {
+  color: #6D7189;
+}
+
 
 /* *********** media queries *********** */
 @media all and (max-width: 990px) {
-  .flex-container {
+  .nav-parent {
     flex-direction: column;
   }
 
@@ -217,9 +298,54 @@ img.social {
     justify-content: space-around;
   }
 
-  .JD {
-    max-width: 20%;
+  #work .row {
+    justify-content: center;
+    text-align: center;
+    margin-right: 25px;
+    margin-left: 25px;
   }
+
+  .desc {
+    padding: 50px 50px 0px 50px;
+    justify-content: center;
+  }
+
+  .personal-photograph {
+    padding: 0;
+  }
+
+  #work .row h1 {
+    margin-top: 25px;
+  }
+
+  #about .row .col-xs-12 {
+    text-align: center;
+  }
+
+  #about h2 {
+    max-width: 100%;
+  }
+
+  #about h1 {
+    max-width: 100%;
+  }
+  .social-container {
+    margin-bottom: 45px;
+    text-align: center;
+  }
+
+  #resume .row {
+      padding: 10px 15% 0px 15%;
+  }
+
+  .card-display {
+    margin-bottom: 25px;
+  }
+
+  #resume {
+    background: #ebefef;
+  }
+
 }
 
 /* ****** media queries, no desktop ****** */
@@ -229,12 +355,12 @@ img.social {
     align-self: left; /* align the logo to the left side of 'flex-container' */
   }
 
-  .navigation {
-    flex-direction: column;
+  .logo a {
+    font-weight: 600;
   }
 
-  .JD {
-    max-width: 30%;
+  .navigation {
+    flex-direction: column;
   }
 
   .navigation a { 
@@ -247,6 +373,11 @@ img.social {
   .navigation li:last-of-type a {
     border-bottom: none;
   }
+
+  .example .content .text { 
+    font-size: 32px;
+  }
+
 }
 
 </style>
