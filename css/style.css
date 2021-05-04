@@ -355,6 +355,11 @@ span.dark-purple {
     align-self: left; /* align the logo to the left side of 'flex-container' */
   }
 
+  .JD {
+    max-width: 20%;
+    height: auto;
+  }
+
   .logo a {
     font-weight: 600;
   }
