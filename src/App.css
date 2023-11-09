@@ -1,0 +1,70 @@
+.App {
+  width: 100%;
+  font-family: Lato;
+}
+
+p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  margin-top: 25px;
+}
+
+h1 {
+  color: hsl(202, 100%, 45%);
+  font-family: Lato;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+h2 {
+  color: #032559;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+h3 {
+  color: #032559;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0px 0 0 0;
+}
+
+h4 {
+  color: #D84303;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: lowercase;
+  margin: 0;
+}
+
+h5 {
+  font-family: Lato;
+  color: #3DAA22;
+  text-transform: uppercase;
+
+}
+
+.icon {
+  margin-inline-end: 15px;
+  padding-top: 10px;
+}
+
+.green {
+  color: #3DAA22;
+}
