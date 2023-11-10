@@ -71,7 +71,7 @@ h1 {
     width: 140px;
     position: absolute;
     top: 40px;
-    left: 320px;
+    left: 250px;
     @media (min-width: 601px) {
         top: 40px;
         left: 180px;
@@ -81,7 +81,7 @@ h1 {
 .bubble-text {
     position: absolute;
     top: 75px;
-    left: 350px;
+    left: 280px;
     @media (min-width: 601px) {
         top: 75px;
         left: 212px;
