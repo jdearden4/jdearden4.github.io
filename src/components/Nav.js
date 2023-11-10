@@ -18,7 +18,7 @@ function Nav() {
         <nav className="nav">
             <div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} className="logo-container">
                 <img src={logo} className="logo-img" alt="JD Logo" />
-                {showMessage && <div className="message"><img className="speechbubble" src={speechbubble}/><h3 className="bubble-text">Hi there</h3></div>}
+                {showMessage && <div className="message"><img className="speechbubble" src={speechbubble} alt="Speech bubble saying hello"/><h3 className="bubble-text">Hi there</h3></div>}
              </div>
                   <h1 className="logo">Julia Dearden</h1>
             <div className="nav-links">

@@ -11,7 +11,7 @@ const projects = [
         title: "To Do App",
         stack: "React, CSS",
         image: require('../img/todo.png'),
-        description: "Developed a simple to-do aplication that allows users to keep a list of inputted tasks. Used useState and hooks to achieve functionality, and the Styled-component library for styling",
+        description: "Developed a simple to-do aplication that allows users to keep a list of inputted tasks. Used useState and hooks to achieve functionality, and the Styled-Component library for styling",
         link: "https://github.com/jdearden4/todo-app",
         type: "dev project"
     },

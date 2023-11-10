@@ -1,38 +1,27 @@
 .project-page {
-    display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1;
+    grid-template-rows: auto;
     justify-items: center;
     align-items: center;
-    gap: 20px;
-    padding-inline-start: 28px;
-    padding-inline-end: 28px;
     @media (min-width: 601px) {
-        padding-inline-start: 58px;
-        padding-inline-end: 58px;
-        padding-top: 60px;
-        grid-template-columns: 3fr 5fr;
+        grid-template-columns: 3fr 2fr;
         grid-template-rows: 1;
         align-content: center;
-        gap: 60px;
-
-
+        gap: 3.75rem;
     }
 }
 
 .project-tile-single {
-    width: 345px;
-    height: 286px;
+    width: 100%;
+    height: 90%;
     display: flex;
     background: rgba(0, 145, 227, 0.45);
-    border-radius: 16px;
-    margin-top: 80px;
+    border-radius: 1rem;
     justify-content: center;
     align-items: center;
     @media (min-width: 601px) {
-        width: 659px;
-        height: 547px;
-        margin-top: 0;
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -44,7 +33,7 @@
 }
 
 .project-title {
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 
@@ -54,11 +43,11 @@
 
 .cta-link {
     width: 250px;
-    text-align: center;
     height: 45px;
+    text-align: center;
     background: #3DAA22;
-    border-radius: 44px;
-    margin-bottom: 20px;
+    border-radius: 2.75rem;
+    margin-bottom: 1.25rem;
     text-decoration: none;
     color: #032559;
     transition-property: background-color, color;
@@ -67,7 +56,7 @@
 }
 
 .cta-text {
-    margin: 10px;
+    margin: 0.625rem;
     color: #032559;
     text-transform: uppercase;
 }

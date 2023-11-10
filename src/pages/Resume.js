@@ -1,9 +1,3 @@
-import resume from '../img/JD_Resume.jpg';
-import github from '../img/github.png';
-import email from '../img/email.png';
-import linkedin from '../img/linkedin.png';
-
-
 
 function Resume() {
     return (

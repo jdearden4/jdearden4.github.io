@@ -1,20 +1,12 @@
 .resume {
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     justify-items: center;
-    /* align-items: center; */
-    gap: 20px;
-    padding-inline-start: 28px;
-    padding-inline-end: 28px;
-    margin-top: 80px;
     text-align: center;
+
     @media (min-width: 601px) {
-        padding-inline-start: 58px;
-        padding-inline-end: 58px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
-        margin-top: 0;
         text-align: left;
     }
 }
@@ -26,13 +18,14 @@
 .resume-section p {
     margin-top: 0;
 }
+
 .resume-section h3 {
-    margin: 16px 0 16px 0;
+    margin: 1rem 0 1rem 0;
 }
 
 .resume-header {
     font-size: 36px;
-    margin-bottom: 15px;
+    margin: 0 0 15px 0;
 }
 
 .resume-column {
@@ -70,7 +63,7 @@
 .orange {
     color: #D84303;
     font-family: Lato;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;

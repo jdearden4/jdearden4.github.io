@@ -1,31 +1,22 @@
 .about {
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     justify-items: center;
     align-items: center;
-    height: 60vh;
-    gap: 20px;
-    padding-inline-start: 28px;
-    padding-inline-end: 28px;
-
     @media (min-width: 601px) {
-        padding-inline-start: 58px;
-        padding-inline-end: 58px;
-        padding-top: 60px;
         grid-template-columns: 3fr 5fr;
         grid-template-rows: 1;
-        align-items: center;
-
     }
 }
 
 .about-image {
-    padding-top: 75px;
-
+    width: 100%;
+    height: 100%;
     @media (min-width: 601px) {
         padding-top: 0;
-        margin-inline-end: 75px;
+        margin-inline-end: 4.688rem;
+        width: auto;
+        height: auto;
     }
 }
 
@@ -34,14 +25,13 @@
 
     @media (min-width: 601px) {
         text-align: left;
-
     }
 }
 
 .about-title {
     color: #0091E3;
     font-family: Lato;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -49,20 +39,20 @@
 }
 
 .about-subtitle {
-    margin: 5px 0 0 0;
+    margin: 0.313rem 0 0 0;
 }
 
 
 .about-paragraph {
-    font-size: 16px;
+    font-size: 1rem;
     text-transform: none;
 }
 
 .about-personal {
-    margin: 25px 0;
-
+    margin: 1.563rem 0;
+    text-transform: none;
 }
 
 .links-container {
-    margin-top: 25px;
+    margin-top: 1.563rem;
 }

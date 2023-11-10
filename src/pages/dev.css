@@ -1,31 +1,23 @@
 .dev {
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     text-align: center;
-    height: 60vh;
-    padding-top: 80px;
-    gap: 40px;
-    padding-inline-start: 28px;
-    padding-inline-end: 28px;
+    align-items: start;
+    gap: 2.5rem;
     @media (min-width: 601px) {
        grid-template-columns: 1fr 1fr 1fr;
         text-align: left;
-        padding-inline-start: 58px;
-        padding-inline-end: 58px;
+        justify-items: center;
+
     }
 }
 
-.project {
-    padding-block-end: 30px;
-}
-
 .project-tile {
-    height: 293px;
-    width: 100%;
+    height: 295px;
+    width: 90%;
     background: rgba(0, 145, 227, 0.45);
-    border-radius: 16px;
-    margin-bottom: 30px;
+    border-radius: 1rem;
+    margin-bottom: 1.875rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +28,6 @@
     transition-property: background-color, color;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
-
 }
 
 .project-type {
