@@ -12,7 +12,7 @@ const projects = [
         stack: "React, CSS",
         image: require('../img/todo.png'),
         description: "Developed a simple to-do aplication that allows users to keep a list of inputted tasks. Used useState and hooks to achieve functionality, and the Styled-Component library for styling",
-        link: "https://github.com/jdearden4/todo-app",
+        link: "https://github.com/jdearden4/to-do-app",
         type: "dev project"
     },
     {
@@ -20,7 +20,7 @@ const projects = [
         stack: "C#, .NET, HTML, SCSS, JS",
         image: require('../img/fundamentals.png'),
         description: "Spearheaded back-end strategy, development, and front end development for Fundamentals pages. Lead development implementation that allowed for 80+ pages with existing data to be reworked, elevated, and dynamically populated",
-        link: "https://github.com/jdearden4/todo-app",
+        link: "https://www.rapid7.com/fundamentals/",
         type: "dev project"
     },
     {
@@ -28,7 +28,7 @@ const projects = [
         stack: "C#, .NET, HTML, SCSS, VUE.JS",
         image: require('../img/customer.png'),
         description: "Lead back-end strategy, development, and QA efforts for three new customer-related page templates. Assisted with front-end development. Created multiple blocks and pages that dynamically pull in data to enhance content-editor's CMS experience",
-        link: "https://github.com/jdearden4/todo-app",
+        link: "https://www.rapid7.com/customers/",
         type: "dev project"
     },
     {
