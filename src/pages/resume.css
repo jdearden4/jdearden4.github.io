@@ -2,12 +2,15 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     justify-items: center;
+    align-items: start;
     text-align: center;
+    gap: 40px;
 
     @media (min-width: 601px) {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
         text-align: left;
+        gap: 20px;
     }
 }
 
