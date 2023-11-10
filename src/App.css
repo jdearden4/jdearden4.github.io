@@ -8,7 +8,7 @@ section {
   gap: 20px;
   padding-inline-start: 28px;
   padding-inline-end: 28px;
-  margin-top: 60px;
+  margin-top: 80px;
   padding-bottom: 25px;
 
   @media (min-width: 601px) {
