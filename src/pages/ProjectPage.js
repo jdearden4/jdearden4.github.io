@@ -9,7 +9,7 @@ const linkEmpty = project.link === "" ? false : true;
   return (
 
     <section className="project-page">
-        <div class="project-tile-single">
+        <div className="project-tile-single">
             <img className="project-img-single" loading="lazy" src={project.image} alt={project.title} />
         </div>
         <div className="project-tile-text">
