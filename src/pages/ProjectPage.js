@@ -18,7 +18,7 @@ const linkEmpty = project.link === "" ? false : true;
             <h4>{project.stack}</h4>
             <p className="project-desc">{project.description}</p>
             {linkEmpty && (
-            <a href={project.link} target="_blank">
+            <a href={project.link} target="_blank" rel="noreferrer">
               <h5 className="project-link">View Project</h5>
             </a>
           )}
