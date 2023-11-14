@@ -79,15 +79,15 @@ const projects = [
         link: "http://saimap.digital.conncoll.edu/",
         type: "design project"
     },
-    {
-        title: "Portland Maine Brew App",
-        stack: "Adobe Animate, ActionScript, Illustrator",
-        image: require('../img/brewapp.png'),
-        description: "Designed and developed a local app that explores the Portland, Maine beer scene, complete with an interactive map of breweries",
-        link: "",
-        type: "design project"
+    // {
+    //     title: "Portland Maine Brew App",
+    //     stack: "Adobe Animate, ActionScript, Illustrator",
+    //     image: require('../img/brewapp.png'),
+    //     description: "Designed and developed a local app that explores the Portland, Maine beer scene, complete with an interactive map of breweries",
+    //     link: "",
+    //     type: "design project"
 
-    },
+    // },
     {
         title: "Dodger - EEL Inc.",
         stack: "Unity 3D, C#, Photoshop",
