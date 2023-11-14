@@ -12,15 +12,24 @@
     }
 }
 
-.project-tile {
-    height: 295px;
+.project {
     width: 100%;
+}
+.project-tile {
     background: rgba(0, 145, 227, 0.45);
     border-radius: 1rem;
     margin-bottom: 1.875rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    flex-basis: 0;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.project-img {
+    width: 90%;
 }
 
 .project-tile:hover {
@@ -35,7 +44,8 @@
 }
 
 .project-img {
-    width: 100%;
+    flex-basis: 0;
+    flex-shrink: 1;
 }
 
 .cta-link.projects {

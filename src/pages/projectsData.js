@@ -1,7 +1,7 @@
 const projects = [
     {
         title: "Little Lemon Table Res",
-        image: require('../img/newsroom.png'),
+        image: require('../img/littlelemon.png'),
         stack: "Figma, React, JS, HTML, CSS, Jest",
         description: "Developed a SPA with a table reservation system. Created user personas, wireframes, and mockups prior to implementation. Built UI components with React and used a mock API to determine available reservation times. Conducted unit tests with Jest",
         link: "https://github.com/jdearden4/meta-front-end/tree/main/Capstone/little-lemon",
