@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c11e4109.css",
-    "main.js": "/static/js/main.66c3cf9c.js",
+    "main.js": "/static/js/main.6eef19d7.js",
     "static/js/787.69b243a9.chunk.js": "/static/js/787.69b243a9.chunk.js",
     "static/media/todo.png": "/static/media/todo.60a986e39d2db9f5916e.png",
     "static/media/socialgood.png": "/static/media/socialgood.3aed3816be4ab24b8fe0.png",
@@ -10,6 +10,7 @@
     "static/media/homepage.png": "/static/media/homepage.20f1a40a5b206ede93ae.png",
     "static/media/newsroom.png": "/static/media/newsroom.9b50e0de4957906c660c.png",
     "static/media/littlelemon.png": "/static/media/littlelemon.aa603c4e6c55b3a50670.png",
+    "static/media/brewapp.png": "/static/media/brewapp.03e473c153301f41e743.png",
     "static/media/studyabroad.png": "/static/media/studyabroad.030324d8e09c586bf7b8.png",
     "static/media/fundamentals.png": "/static/media/fundamentals.4178a58c26ada7aa4cca.png",
     "static/media/onetrust.png": "/static/media/onetrust.8e7e2c35be7cb47c5513.png",
@@ -18,11 +19,11 @@
     "static/media/speechbubble.png": "/static/media/speechbubble.c6659b072a51f34fff6e.png",
     "index.html": "/index.html",
     "main.c11e4109.css.map": "/static/css/main.c11e4109.css.map",
-    "main.66c3cf9c.js.map": "/static/js/main.66c3cf9c.js.map",
+    "main.6eef19d7.js.map": "/static/js/main.6eef19d7.js.map",
     "787.69b243a9.chunk.js.map": "/static/js/787.69b243a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c11e4109.css",
-    "static/js/main.66c3cf9c.js"
+    "static/js/main.6eef19d7.js"
   ]
 }
