@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.1051d98b.css",
-    "main.js": "/static/js/main.9f04d446.js",
+    "main.css": "/static/css/main.c11e4109.css",
+    "main.js": "/static/js/main.66c3cf9c.js",
     "static/js/787.69b243a9.chunk.js": "/static/js/787.69b243a9.chunk.js",
-    "static/media/todo.png": "/static/media/todo.b622346cb03285d181c4.png",
-    "static/media/socialgood.png": "/static/media/socialgood.ceae34c15091d1175126.png",
-    "static/media/customer.png": "/static/media/customer.af77577b08afd89701dd.png",
-    "static/media/DEI.png": "/static/media/DEI.1702b04361dff4d72b90.png",
-    "static/media/homepage.png": "/static/media/homepage.ae76627feb13e255ba42.png",
-    "static/media/newsroom.png": "/static/media/newsroom.01301f4f67557af69f5a.png",
-    "static/media/studyabroad.png": "/static/media/studyabroad.c47b361e4bc627549233.png",
-    "static/media/fundamentals.png": "/static/media/fundamentals.e84f4f23270d8204a74c.png",
-    "static/media/onetrust.png": "/static/media/onetrust.3b0f2d518485aebad375.png",
+    "static/media/todo.png": "/static/media/todo.60a986e39d2db9f5916e.png",
+    "static/media/socialgood.png": "/static/media/socialgood.3aed3816be4ab24b8fe0.png",
+    "static/media/customer.png": "/static/media/customer.e6f8b00211df5a71cf5b.png",
+    "static/media/DEI.png": "/static/media/DEI.7ae4ab16ebbdffb6f088.png",
+    "static/media/homepage.png": "/static/media/homepage.20f1a40a5b206ede93ae.png",
+    "static/media/newsroom.png": "/static/media/newsroom.9b50e0de4957906c660c.png",
+    "static/media/littlelemon.png": "/static/media/littlelemon.aa603c4e6c55b3a50670.png",
+    "static/media/studyabroad.png": "/static/media/studyabroad.030324d8e09c586bf7b8.png",
+    "static/media/fundamentals.png": "/static/media/fundamentals.4178a58c26ada7aa4cca.png",
+    "static/media/onetrust.png": "/static/media/onetrust.8e7e2c35be7cb47c5513.png",
     "static/media/JD-portrait.png": "/static/media/JD-portrait.1d4134a66842590bb135.png",
-    "static/media/EEL.png": "/static/media/EEL.d64454c95958a9db4e1b.png",
+    "static/media/EEL.png": "/static/media/EEL.f06f29d0524beb4f5580.png",
     "static/media/speechbubble.png": "/static/media/speechbubble.c6659b072a51f34fff6e.png",
     "index.html": "/index.html",
-    "main.1051d98b.css.map": "/static/css/main.1051d98b.css.map",
-    "main.9f04d446.js.map": "/static/js/main.9f04d446.js.map",
+    "main.c11e4109.css.map": "/static/css/main.c11e4109.css.map",
+    "main.66c3cf9c.js.map": "/static/js/main.66c3cf9c.js.map",
     "787.69b243a9.chunk.js.map": "/static/js/787.69b243a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1051d98b.css",
-    "static/js/main.9f04d446.js"
+    "static/css/main.c11e4109.css",
+    "static/js/main.66c3cf9c.js"
   ]
 }
