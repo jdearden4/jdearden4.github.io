@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.1051d98b.css",
-    "main.js": "/static/js/main.1fb3537b.js",
+    "main.js": "/static/js/main.637eb3b7.js",
     "static/js/787.69b243a9.chunk.js": "/static/js/787.69b243a9.chunk.js",
-    "static/media/todo.png": "/static/media/todo.2d5ef752d38505e927ac.png",
-    "static/media/socialgood.png": "/static/media/socialgood.f1042cb91307cded3b92.png",
-    "static/media/customer.png": "/static/media/customer.71deb192cf42ef0ba211.png",
-    "static/media/DEI.png": "/static/media/DEI.7f2b45bde2441fb9ef88.png",
-    "static/media/newsroom.png": "/static/media/newsroom.87dc589ff684b49f9d83.png",
-    "static/media/homepage.png": "/static/media/homepage.bd81c22261e288b693fb.png",
-    "static/media/studyabroad.png": "/static/media/studyabroad.66a0ee48272d0789db13.png",
-    "static/media/fundamentals.png": "/static/media/fundamentals.216daab78644363dc53d.png",
-    "static/media/onetrust.png": "/static/media/onetrust.5ad25c17d09927d3482e.png",
-    "static/media/EEL.png": "/static/media/EEL.f57452a93b577eb09cdd.png",
+    "static/media/todo.png": "/static/media/todo.b622346cb03285d181c4.png",
+    "static/media/socialgood.png": "/static/media/socialgood.ceae34c15091d1175126.png",
+    "static/media/customer.png": "/static/media/customer.af77577b08afd89701dd.png",
+    "static/media/DEI.png": "/static/media/DEI.1702b04361dff4d72b90.png",
+    "static/media/homepage.png": "/static/media/homepage.ae76627feb13e255ba42.png",
+    "static/media/newsroom.png": "/static/media/newsroom.01301f4f67557af69f5a.png",
+    "static/media/studyabroad.png": "/static/media/studyabroad.c47b361e4bc627549233.png",
+    "static/media/onetrust.png": "/static/media/onetrust.3b0f2d518485aebad375.png",
+    "static/media/fundamentals.png": "/static/media/fundamentals.b0621e39cd5db32db794.png",
     "static/media/JD-portrait.png": "/static/media/JD-portrait.1d4134a66842590bb135.png",
+    "static/media/EEL.png": "/static/media/EEL.d64454c95958a9db4e1b.png",
     "static/media/speechbubble.png": "/static/media/speechbubble.c6659b072a51f34fff6e.png",
     "index.html": "/index.html",
     "main.1051d98b.css.map": "/static/css/main.1051d98b.css.map",
-    "main.1fb3537b.js.map": "/static/js/main.1fb3537b.js.map",
+    "main.637eb3b7.js.map": "/static/js/main.637eb3b7.js.map",
     "787.69b243a9.chunk.js.map": "/static/js/787.69b243a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1051d98b.css",
-    "static/js/main.1fb3537b.js"
+    "static/js/main.637eb3b7.js"
   ]
 }

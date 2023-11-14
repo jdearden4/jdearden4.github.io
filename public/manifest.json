@@ -3,17 +3,17 @@
   "name": "Julia Dearden's Development and Design Portfolio",
   "icons": [
     {
-      "src": "/favicon/favicon.ico",
+      "src": "/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "/favicon/android-chrome-192x192.png",
+      "src": "/android-chrome-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/favicon/android-chrome-384x384",
+      "src": "/android-chrome-384x384",
       "type": "image/png",
       "sizes": "384x384"
     }
