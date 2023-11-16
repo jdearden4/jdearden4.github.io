@@ -16,7 +16,15 @@ const projects = [
         type: "dev project"
     },
     {
-        title: "Fundamentals Pages",
+        title: "Event And Webcast Pages",
+        stack: "C#, .NET, HTML, SCSS, JS",
+        image: require('../img/events.png'),
+        description: "Lead research, design, and development strategy and implementation for new event and webcast page templates. Included multiple ways of inputting content to account for various technical strengths and supplemented new templates with documentation and training videos. Allowed us to centralize our content and remove the old events subdomain",
+        link: "https://www.rapid7.com/about/events-webcasts/2023/11/rapid7-at-aws-reinvent-2023/",
+        type: "dev project"
+    },
+    {
+       title: "Fundamentals Pages",
         stack: "C#, .NET, HTML, SCSS, JS",
         image: require('../img/fundamentals.png'),
         description: "Spearheaded back-end strategy, development, and front end development for Fundamentals pages. Lead development implementation that allowed for 80+ pages with existing data to be reworked, elevated, and dynamically populated",
@@ -30,6 +38,14 @@ const projects = [
         description: "Lead back-end strategy, development, and QA efforts for three new customer-related page templates. Assisted with front-end development. Created multiple blocks and pages that dynamically pull in data to enhance content-editor's CMS experience",
         link: "https://www.rapid7.com/customers/",
         type: "dev project"
+    },
+    {
+        title: "Newsroom",
+        stack: "HTML, SCSS, JS, Sketch, InDesign, Illustrator",
+        image: require('../img/newsroom.png'),
+        description: "Revamped a simple 3-column basic layout to a completely new page template including a carousel header and dynamically pulled in content. Lead design and development",
+        link: "https://www.rapid7.com/about/news/",
+        type: "design project"
     },
     {
         title: "Homepage Redesign",
@@ -62,14 +78,6 @@ const projects = [
         description: "Net-new back-end template to showcase a new theme, new block types, and Rapid7 company DE&I efforts",
         link: "https://www.rapid7.com/about/diversity-equity-and-inclusion/",
         type: "dev project"
-    },
-    {
-        title: "Newsroom",
-        stack: "HTML, SCSS, JS, Sketch, InDesign, Illustrator",
-        image: require('../img/newsroom.png'),
-        description: "Revamped a simple 3-column basic layout to a completely new page template including a carousel header and dynamically pulled in content. Lead design and development",
-        link: "https://www.rapid7.com/about/news/",
-        type: "design project"
     },
     {
         title: "Study Abroad Web App",
