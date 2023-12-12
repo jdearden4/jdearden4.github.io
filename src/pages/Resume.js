@@ -5,16 +5,16 @@ function Resume() {
             <div className="resume-column">
                 <div className="resume-section">
                     <h1 className="resume-header">Experience</h1>
-                    <p>Web Engineer II, <span className="orange">Rapid7</span></p>
-                    <p>Web Engineer I, <span className="orange">Rapid7</span></p>
-                    <p>Growth Strategy Rotational Program, <span className="orange">Rapid7</span></p>
-                    <p>Product Management Intern, <span className="orange">Cengage</span></p>
-                    <p>Graphic Designer, <span className="orange">Freelance</span></p>
+                    <p>Software Engineer II, Web - <span className="orange">Rapid7</span></p>
+                    <p>Software Engineer I, Web - <span className="orange">Rapid7</span></p>
+                    <p>Growth Strategy Rotational Program - <span className="orange">Rapid7</span></p>
+                    <p>Product Management Intern - <span className="orange">Cengage</span></p>
+                    <p>Graphic Designer - <span className="orange">Freelance</span></p>
                 </div>
                 <div className="resume-section">
                 <h1 className="resume-header">Courses and Certifications</h1>
                     <p>Frontend Development Certificate - <span className="orange">Meta, Coursera</span></p>
-                    <p>Foundations of UX - <span className="orange">Google, Coursera</span></p>
+                    <p>UX Design Certificate - <span className="orange">Google, Coursera</span></p>
                     <p>Web Development - <span className="orange">John's Hopkins, Coursera</span></p>
                 </div>
             </div>
@@ -30,6 +30,9 @@ function Resume() {
                         <h4 className="stack">React</h4>
                         <h4 className="stack">C#</h4>
                         <h4 className="stack">.NET</h4>
+                        <h4 className="stack">Figma</h4>
+                        <h4 className="stack">Sketch</h4>
+                        <h4 className="stack">Adobe CC</h4>
                     </div>
                 </div>
                 <div className="resume-section">
