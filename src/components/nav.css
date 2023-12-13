@@ -42,6 +42,10 @@ h1 {
     font-weight: 800;
 }
 
+.nav-links {
+    display: flex;
+}
+
 .nav-item {
     margin: 0 15px;
     color: #222;
