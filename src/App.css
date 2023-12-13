@@ -14,7 +14,7 @@ section {
   @media (min-width: 601px) {
     padding-inline-start: 58px;
     padding-inline-end: 58px;
-    padding-top: 60px;
+    padding-top: 100px;
     align-items: center;
     margin-top: 0;
 
@@ -24,12 +24,13 @@ section {
 p {
   color: #000;
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 25px;
   margin-top: 25px;
   opacity: .6;
+    font-weight: 400;
+    line-height: 28px;
 }
 
 h1 {

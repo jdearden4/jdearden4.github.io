@@ -53,7 +53,7 @@
 }
 
 .stack {
-    background: #3DAA22;
+    background: #032559;
     color: white;
     width: fit-content;
     padding: 0 15px;
@@ -61,14 +61,21 @@
     text-align: center;
     text-transform: uppercase;
     border-radius: 16px;
+    opacity: 1;
 }
 
 .orange {
-    color: #D84303;
-    font-family: Lato;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    text-transform: uppercase;
+}
+
+.resume-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.875rem;
+    font-weight: 400;
+    line-height: 46px;
+    color: #1a1b1f;
+}
+
+.resume-p .orange{
+    opacity: 1;
 }
