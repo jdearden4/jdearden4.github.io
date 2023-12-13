@@ -25,6 +25,8 @@ function Nav() {
                 <NavLink to="/" className="nav-item">About</NavLink>
                 <NavLink to="/projects" className="nav-item" >Projects</NavLink>
                 <NavLink to="/resume" className="nav-item">Resume</NavLink>
+                <a href="https://jdearden.webflow.io/" target="_blank" rel="noopener noreferrer" className="nav-item">Design Portfolio</a>
+
             </div>
         </nav>
 
