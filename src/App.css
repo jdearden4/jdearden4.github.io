@@ -22,15 +22,13 @@ section {
 }
 
 p {
-  color: #000;
-  font-family: Montserrat;
+  color: #7D7D7F;
+  font-family: Lato;
   font-size: 1rem;
   font-style: normal;
-  font-weight: 600;
   margin-top: 25px;
-  opacity: .6;
-    font-weight: 400;
-    line-height: 28px;
+  font-weight: 400;
+  line-height: 28px;
 }
 
 h1 {
@@ -79,8 +77,11 @@ h5 {
   line-height: normal;
   text-transform: lowercase;
   margin: 0;
-  opacity: .6;
   color: rgb(3, 37, 89);
+}
+
+h5:hover {
+  opacity: .6;
 }
 
 .icon {
