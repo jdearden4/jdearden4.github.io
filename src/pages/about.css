@@ -29,28 +29,47 @@
 }
 
 .about-title {
-    color: #0091E3;
+    color: #1a1b1f;
     font-family: Lato;
-    font-size: 2.25rem;
+    font-size: 1.25rem;
     font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+    font-weight: 400;
+    line-height: 34px;
     margin: 0;
 }
 
 .about-subtitle {
     margin: 0.313rem 0 0 0;
+    font-size: 1rem;
+    opacity: .6;
+    color: #1a1b1f;
+    font-weight: 400;
+    line-height: 28px;
 }
 
 
 .about-paragraph {
     font-size: 1rem;
     text-transform: none;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: .6;
+}
+
+.blue {
+    color: hsl(216, 93%, 18%);
 }
 
 .about-personal {
-    margin: 1.563rem 0;
-    text-transform: none;
+    font-size: 1rem;
+    opacity: .6;
+    color: #1a1b1f;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    margin-bottom: 25px;
+    font-weight: 500;
+    line-height: 20px;
+    color: hsl(216, 93%, 18%);
 }
 
 .links-container {

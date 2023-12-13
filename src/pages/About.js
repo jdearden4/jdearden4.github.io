@@ -10,9 +10,9 @@ function Home() {
         <section className="about">
             <img src={JDPortrait} className="about-image" loading="lazy" alt="Julia Dearden Portrait"/>
             <div className="about-text">
-                <h2 className="about-title">Hi there, I'm Julia!</h2>
-                <h2 className="about-subtitle">My drive is to create empathetic, human experiences within technology.</h2>
-                <p className="about-paragraph">I have a strong, technical background that is complemented with a foundation of design-thinking skills. I am obsessed with asking <b className="green">“Why?”</b> and keeping humans at the center of dev and design decisions. As a result of working in various technical, creative, and strategic positions, I am a cross-functional problem solver who is passionate about front-end engineering and product design.</p>
+                <h2 className="about-title">Julia Dearden</h2>
+                <h2 className="about-subtitle">frontend engineer & product designer</h2>
+                <p className="about-paragraph">As a result of working in various technical, creative, and strategic positions, I am a cross-functional problem solver who is passionate about front-end engineering and product design.<br/><br/>My drive is to create empathetic, human experiences within technology. I have a strong, technical background that is complemented with a foundation of design-thinking skills. I am obsessed with asking <b className="blue">“Why?”</b> and keeping humans at the center of dev and design decisions.</p>
                 <h4 className="about-personal">Other things I love: music, pilates, being outdoors, and painting!</h4>
                 <div className="link-container">
                     <a href="https://github.com/jdearden4/" target="_blank" rel="noopener noreferrer"><img className="icon" src={github} alt="github"/></a>

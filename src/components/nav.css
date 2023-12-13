@@ -38,23 +38,21 @@
 
 h1 {
     color: #0091E3;
-    font-size: 2.625rem;
+    font-size: 1.5rem;
     font-weight: 800;
 }
 
 .nav-item {
-    /* margin-inline-start: 35px; */
     margin: 0 15px;
-    font-size: 1.5rem;
+    font-size: 0.75rem;
     font-weight: 700;
     color: #032559;
     text-decoration: none;
-    text-transform: lowercase;
+    text-transform: uppercase;
     transition-property: background-color, color;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
     @media (min-width: 601px) {
-        font-size: 1.5rem;
         margin-inline-start: 2.188rem;
     }
 }
