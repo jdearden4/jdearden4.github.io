@@ -21,14 +21,14 @@ function Project({title, image, stack, type}) {
         <div className="project">
             <Link to={projectPage}>
                 <div className="project-tile" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-                {showMessage && <div className="cta-link projects"><h3 className="cta-text">View More</h3></div>}
+                {/* {showMessage && <div className="cta-link projects"><h3 className="cta-text">View More</h3></div>} */}
                     <img className="project-img" loading="lazy" src={image} alt={title}/>
                 </div>
             </Link>
             <div className="project-text">
-                <h5 className="project-type">{type}</h5>
                 <h3>{title}</h3>
-                <h4>{stack}</h4>
+                <h4 className="project-type">{type}</h4>
+                <h5>{stack}</h5>
             </div>
         </div>
     );

@@ -45,38 +45,38 @@
     width: 250px;
     height: 45px;
     text-align: center;
-    background: #3DAA22;
+    background: #032559;
     border-radius: 2.75rem;
     margin-bottom: 1.25rem;
     text-decoration: none;
-    color: #032559;
     transition-property: background-color, color;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
-}
-
-.cta-text {
-    margin: 0.625rem;
-    color: #032559;
-    text-transform: uppercase;
-}
-
-.cta-link:hover {
-    background: #1f5911;
-}
-
-.cta-text:hover {
     color: white;
 }
 
+.cta-text {
+    margin-top: 0.8rem;
+    color: white;
+    text-transform: uppercase;
+    opacity: 1;
+    line-height: 1;
+}
+
+.cta-link:hover {
+    opacity: .8;
+}
 
 .project-link {
     text-transform: uppercase;
     text-decoration: underline;
-    font-weight: 800;
     transition-property: background-color, color;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #032559;
+    opacity: 1;
 }
 
 .project-link:hover {

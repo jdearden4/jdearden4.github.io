@@ -44,25 +44,33 @@ h1 {
 
 .nav-item {
     margin: 0 15px;
-    font-size: 0.75rem;
-    font-weight: 700;
-    color: #032559;
+    color: #222;
     text-decoration: none;
-    text-transform: uppercase;
     transition-property: background-color, color;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
+    opacity: .6;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+
     @media (min-width: 601px) {
         margin-inline-start: 2.188rem;
     }
 }
 
 .nav-item:hover {
-    color: #D84303;
+    opacity: 1;
 }
 
 .active {
-    color: #3DAA22;
+    color: #032559;
+    opacity: 1;
+    font-weight: 600;
 }
 
 .speechbubble {

@@ -16,6 +16,7 @@
     width: 100%;
 }
 .project-tile {
+    opacity: 1;
     background: rgba(0, 145, 227, 0.45);
     border-radius: 1rem;
     margin-bottom: 1.875rem;
@@ -33,7 +34,7 @@
 }
 
 .project-tile:hover {
-    background: hsla(202, 100%, 45%, 0.75);
+    opacity: .6;
     transition-property: background-color, color;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -48,6 +49,6 @@
     flex-shrink: 1;
 }
 
-.cta-link.projects {
-    position: absolute;
+.project-text {
+    text-align: center;
 }

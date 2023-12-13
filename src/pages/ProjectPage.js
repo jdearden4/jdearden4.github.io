@@ -13,9 +13,9 @@ const linkEmpty = project.link === "" ? false : true;
             <img className="project-img-single" loading="lazy" src={project.image} alt={project.title} />
         </div>
         <div className="project-tile-text">
-            <h5 className="project-type">{project.type}</h5>
             <h3 className="project-title">{project.title}</h3>
-            <h4>{project.stack}</h4>
+            <h4 className="project-type">{project.type}</h4>
+            <h5>{project.stack}</h5>
             <p className="project-desc">{project.description}</p>
             {linkEmpty && (
             <a href={project.link} target="_blank" rel="noreferrer">
