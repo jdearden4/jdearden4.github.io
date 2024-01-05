@@ -8,36 +8,19 @@
     text-align: center;
     padding-inline-start: 3.625rem;
     padding-inline-end: 3.625rem;
+    padding-top: 25px;
+
 
     @media (min-width: 601px) {
         flex-direction: row;
         justify-content: space-between;
         text-align: left;
         padding-top: 1.563rem;
-
-    }
-}
-
-.logo-container {
-    margin-inline-end: 0;
-    @media (min-width: 601px) {
-        margin-inline-end: 1.563rem;
-    }
-}
-
-.logo-img {
-    max-height: 100px;
-    padding-top: 3.75rem;
-
-    @media (min-width: 601px) {
-        max-height: 200px;
-        padding-top:  0;
-
     }
 }
 
 h1 {
-    color: #0091E3;
+    color: black;
     font-size: 1.5rem;
     font-weight: 800;
 }
@@ -69,12 +52,14 @@ h1 {
 
 .nav-item:hover {
     opacity: 1;
+    font-weight: 700;
 }
 
 .active {
     color: #032559;
     opacity: 1;
-    font-weight: 600;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 .speechbubble {
