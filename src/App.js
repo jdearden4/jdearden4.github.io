@@ -8,12 +8,12 @@ import './App.css';
 import './components/nav.css';
 import './pages/dev.css';
 import './pages/project.css';
+import './pages/home.css';
 import './pages/about.css';
-import './pages/resume.css';
 import Nav from './components/Nav';
-import About from './pages/About';
+import Home from './pages/Home';
 import Dev from './pages/Dev';
-import Resume from './pages/Resume';
+import About from './pages/About';
 import ProjectPage from './pages/ProjectPage';
 import projects from './pages/projectsData';
 
@@ -24,8 +24,8 @@ function App() {
     <Router>
       <Nav/>
       <Routes>
-        <Route path="/" element={<About/>} />
-        <Route path="/resume" element={<Resume/>} />
+        <Route path="/" element={<Home/>} />
+        <Route path="/about" element={<About/>} />
         <Route path="/projects" element={<Dev projects={projects} />} />
         <Route path="/:projectName" element={<Outlet />}>
           {projects.map((project, index) => (

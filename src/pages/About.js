@@ -1,28 +1,58 @@
-import JDPortrait from '../img/JD-portrait.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import github from '../img/github.svg';
-import email from '../img/mail.svg';
-import linkedin from '../img/linkedin.svg';
+import bullet from '../img/bullet.png';
 
-
-
-function Home() {
+function Resume() {
     return (
-        <section className="about">
-            <img src={JDPortrait} className="about-image" loading="lazy" alt="Julia Dearden Portrait"/>
-            <div className="about-text">
-                <div className="label">Hey there!</div>
-                <h2 className="about-title">I'm Julia</h2>
-                <h2 className="about-subtitle">frontend engineer & product designer</h2>
-                <p className="about-paragraph">As a result of working in various technical, creative, and strategic positions, I am a cross-functional problem solver who is passionate about front-end engineering and product design.<br/><br/>My drive is to create empathetic, human experiences within technology. I have a strong, technical background that is complemented with a foundation of design-thinking skills. I am obsessed with asking <b className="blue">“Why?”</b> and keeping humans at the center of dev and design decisions.<br/><br/>Other things I love: music, pilates, being outdoors, and painting!</p>
-                <div className="link-container">
-                    <a href="https://github.com/jdearden4/" target="_blank" rel="noopener noreferrer"><img className="icon" src={github} alt="email"/></a>
-                    <a href="mailto:jdearden44@gmail.com" target="_blank" rel="noopener noreferrer"><img className="icon" src={email} alt="email"/></a>
-                    <a href="https://www.linkedin.com/in/julia-dearden/" target="_blank" rel="noopener noreferrer"><img className="icon" src={linkedin} alt="linkedin"/></a>
+        <section className="resume">
+            <div className="resume-intro">
+                <p>This is a <b>super</b> basic outline of my background. If you want to learn about my experience more in-depth, please visit my <a className="portfolio-link" target="_blank" rel="noreferrer" href="https://jdearden.webflow.io/about">design portfolio's about section!</a></p>
+            </div>
+            <div className="column">
+                <div className="resume-section">
+                    <h1 className="resume-header">Experience</h1>
+                    <p><img className="bullet" alt="star list bullet" src={bullet}/>Software Engineer II, Web - Rapid7</p>
+                    <p><img className="bullet" alt="star list bullet" src={bullet}/>Software Engineer I, Web - Rapid7</p>
+                    <p><img className="bullet" alt="star list bullet" src={bullet}/>UX Designer and Software Engineer - Rapid7</p>
+                    <p><img className="bullet" alt="star list bullet" src={bullet}/>UX Researcher - Rapid7</p>
+                    <p><img className="bullet" alt="star list bullet" src={bullet}/>Graphic Designer - Freelance</p>
+                </div>
+                <div className="resume-section">
+                <h1 className="resume-header">Courses / Certifications</h1>
+                    <p><img className="bullet" alt="star list bullet" src={bullet}/>Front-End Developer Professional Certificate - Meta, Coursera</p>
+                    <p><img className="bullet" alt="star list bullet" src={bullet}/>UX Design Professional Certificate - Google, Coursera</p>
+                    <p><img className="bullet" alt="star list bullet" src={bullet}/>Web Development - John's Hopkins, Coursera</p>
+                    <p><img className="bullet" alt="star list bullet" src={bullet}/>Responsive Design for Beginners - Beta Tester for CoderCoder</p>
+
+                </div>
+            </div>
+            <div className="column">
+                <div className="resume-section">
+                    <h1 className="resume-header">Stack</h1>
+                    <div className="stack-cubes">
+                        <h4 className="stack">JavaScript</h4>
+                        <h4 className="stack">React</h4>
+                        <h4 className="stack">HTML</h4>
+                        <h4 className="stack">CSS</h4>
+                        <h4 className="stack">SCSS</h4>
+                        <h4 className="stack">Flexbox</h4>
+                        <h4 className="stack">C#</h4>
+                        <h4 className="stack">.NET</h4>
+                        <h4 className="stack">Figma</h4>
+                        <h4 className="stack">Sketch</h4>
+                        <h4 className="stack">Adobe CC</h4>
+                    </div>
+                </div>
+                <div className="resume-section">
+                    <h1 className="resume-header">Education</h1>
+                    <p><img alt="star list bullet" className="bullet" src={bullet}/>B.A Computer Science, Connecticut College</p>
+                    <p><img alt="star list bullet" className="bullet" src={bullet}/>Ammerman Center for Arts and Tech, Connecticut College</p>
+                </div>
+                <div className="resume-section">
+                    <h1 className="resume-header">Leadership</h1>
+                    <p><img alt="star list bullet" className="bullet" src={bullet}/>Women Who Code, NYC</p>
                 </div>
             </div>
         </section>
     )
 }
 
-export default Home;
+export default Resume;

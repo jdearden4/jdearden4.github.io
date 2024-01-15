@@ -7,21 +7,24 @@
         grid-template-columns: 2fr 2fr;
         grid-template-rows: auto;
         align-content: center;
-        gap: 3.75rem;
+        gap: 20px;
     }
 }
 
 .project-tile-single {
-    width: 100%;
+    max-width: 90%;
     height: 90%;
     display: flex;
     background: rgba(0, 145, 227, 0.45);
     border-radius: 1rem;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0;
+
     @media (min-width: 601px) {
-        width: 100%;
+        max-width: 90%;
         height: 100%;
+        margin-bottom: 30px;
     }
 }
 
@@ -34,6 +37,11 @@
 
 .project-title {
     font-size: 2.25rem;
+    margin-bottom: 10px;
+}
+
+.project-stack {
+    padding-bottom: 5px;
 }
 
 
