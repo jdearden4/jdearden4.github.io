@@ -12,6 +12,7 @@
 .about-image {
     width: auto;
     height: auto;
+    border-radius: 16px;
 }
 
 .about-text {
