@@ -14,7 +14,7 @@ function Home() {
                 <div className="label">Hey there!</div>
                 <h2 className="about-title">I'm Julia</h2>
                 <h2 className="about-subtitle">product designer</h2>
-                <p className="about-paragraph">I am a passionate problem solver who has design, development, and research experience. My love for product design, coupled with my ability to understand technical concepts, allows me to approach problems uniquely and seamlessly communicate between stakeholders. I am obsessed with asking “Why?” and my design method revolves around keeping humans at the center of solutions.
+                <p className="about-paragraph">I am a passionate problem solver with design, development, and research experience. My love for product design, combined with my ability to understand technical concepts, allows me to approach problems uniquely and balance design with development trade-offs. I am obsessed with asking "Why?" and my design methodology revolves around keeping humans at the center of solutions.
                     <br/><br/>Other things I love: music, pilates, being outdoors, and painting!
                 </p>
                 <div className="link-container">

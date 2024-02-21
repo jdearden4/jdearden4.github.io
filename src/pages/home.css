@@ -10,9 +10,12 @@
 }
 
 .about-image {
-    width: auto;
+    width: 100%;
     height: auto;
     border-radius: 16px;
+    @media (min-width: 601px) {
+        width: auto;
+    }
 }
 
 .about-text {
@@ -53,7 +56,7 @@
 }
 
 .label {
-    color: rgba(0, 145, 227);
+    color: #007bc2;
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-bottom: 10px;

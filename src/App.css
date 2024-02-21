@@ -12,7 +12,7 @@ section {
   padding-bottom: 25px;
 
   @media (min-width: 601px) {
-    padding: 70px 50px 0px 50px;
+    padding: 70px 50px 70px 50px;
     align-items: center;
   }
 }
@@ -27,7 +27,7 @@ p {
 }
 
 h1 {
-  color: hsl(202, 100%, 45%);
+  color: #007bc2;
   font-family: Lato;
   font-size: 36px;
   font-style: normal;
