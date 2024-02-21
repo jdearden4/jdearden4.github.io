@@ -10,7 +10,7 @@ function Resume() {
                 <h1 className="resume-header">Experience</h1>
                 <p><img className="bullet" alt="star list bullet" src={bullet}/>Software Engineer II, Web UX - Rapid7</p>
                 <p><img className="bullet" alt="star list bullet" src={bullet}/>Software Engineer I, Web UX - Rapid7</p>
-                <p><img className="bullet" alt="star list bullet" src={bullet}/>Product Designer and Software Engineer, Web UX - Rapid7</p>
+                <p><img className="bullet" alt="star list bullet" src={bullet}/>UX Designer and Software Engineer, Web UX - Rapid7</p>
                 <p><img className="bullet" alt="star list bullet" src={bullet}/>UX Researcher - Rapid7</p>
                 <p><img className="bullet" alt="star list bullet" src={bullet}/>Graphic Designer - Freelance</p>
                 <div className="gap"></div>
