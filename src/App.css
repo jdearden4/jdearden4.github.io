@@ -18,22 +18,23 @@ section {
 }
 
 p {
-  color: #7d7d7f;
+  color: #57575C;
   font-family: Lato;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
+  margin: 20px 0;
 }
 
-h1 {
+/* h1 {
   color: #007bc2;
   font-family: Lato;
   font-size: 36px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-}
+} */
 
 h2 {
   color: #032559;
@@ -60,6 +61,7 @@ h4 {
   font-size: 1rem;
   font-weight: 400;
   line-height: 28px;
+  margin: 10px 0 0 0;
 }
 
 h5 {
@@ -70,14 +72,5 @@ h5 {
   line-height: normal;
   text-transform: lowercase;
   margin-top: 5px;
-  color: #7d7d7f;
-}
-
-h5:hover {
-  opacity: .6;
-}
-
-.icon {
-  margin-inline-end: 15px;
-  padding-top: 10px;
+  color: #57575C;
 }

@@ -14,7 +14,7 @@ const linkEmpty = project.link === "" ? false : true;
         </div>
         <div className="project-tile-text">
             <h3 className="project-title">{project.title}</h3>
-            <h5 className="project-stack">{project.stack}</h5>
+            <p className="project-text-stack">{project.stack}</p>
             <p className="project-desc">{project.description}</p>
             {linkEmpty && (
             <a href={project.link} target="_blank" rel="noreferrer">

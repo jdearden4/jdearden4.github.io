@@ -46,16 +46,17 @@
     line-height: 28px;
 }
 
-
-.blue {
-    color: hsl(216, 93%, 18%);
+.portfolio-link {
+    color: #032559;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
-.links-container {
-    margin-top: 1.563rem;
+.portfolio-link:hover {
+    font-weight: 900;
 }
 
-.label {
+.hey-text {
     color: #007bc2;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -65,6 +66,13 @@
     line-height: 20px;
 }
 
+.links-container {
+    margin-top: 1.563rem;
+}
+
+
 .icon {
     height: 45px;
-}
+    margin-inline-end: 15px;
+    padding-top: 10px;
+  }

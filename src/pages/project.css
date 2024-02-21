@@ -15,7 +15,7 @@
     max-width: 90%;
     height: 90%;
     display: flex;
-    background: rgba(0, 145, 227, 0.45);
+    background: rgba(0, 123, 194, 0.76);
     border-radius: 1rem;
     justify-content: center;
     align-items: center;
@@ -36,14 +36,9 @@
 }
 
 .project-title {
-    font-size: 2.25rem;
-    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 400;
 }
-
-.project-stack {
-    padding-bottom: 5px;
-}
-
 
 .project-img-single {
     width: 100%;
@@ -72,21 +67,26 @@
 }
 
 .cta-link:hover {
-    opacity: .8;
+    opacity: .9;
+    transition: opacity .2s;
+
 }
 
 .project-link {
-    text-transform: uppercase;
+    text-transform: none;
     text-decoration: underline;
     transition-property: background-color, color;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
-    font-size: 0.75rem;
+    font-size: 1rem;
+    height: 28px;
     font-weight: 700;
     color: #032559;
     opacity: 1;
 }
 
 .project-link:hover {
-    color: #032559;
+    font-weight: 900;
+    transition: opacity .2s;
+
 }

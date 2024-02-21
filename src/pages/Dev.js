@@ -15,8 +15,8 @@ function Project({title, image, stack, type}) {
                 </div>
             </Link>
             <div className="project-text">
-                <h3>{title}</h3>
-                <h5>{stack}</h5>
+                <h3 className="project-text-title">{title}</h3>
+                <p className="project-text-stack">{stack}</p>
             </div>
         </div>
     );
