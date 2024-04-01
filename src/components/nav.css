@@ -7,14 +7,14 @@
     text-transform: uppercase;
     flex-direction: column;
     text-align: center;
-    padding: 25px 20;
+    padding: 30px;
 
 
     @media (min-width: 601px) {
         flex-direction: row;
         justify-content: space-between;
         text-align: left;
-        padding: 30px 50px;
+        padding: 30px 150px;
     }
 }
 
