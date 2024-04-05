@@ -29,9 +29,12 @@
     margin-top: 0;
     display: flex;
     grid-row-start: 1;
+    grid-column-start: 1;
 
     @media (min-width: 601px) {
         margin-top: 16px;
+        grid-column-start: 2;
+
     }
 }
 
