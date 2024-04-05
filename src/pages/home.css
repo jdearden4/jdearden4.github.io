@@ -11,11 +11,27 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     justify-items: center;
-    align-items: center;
-    gap: 50px;
+    align-items: start;
+    gap: 30px;
     @media (min-width: 601px) {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 3fr 2fr;
         height: auto;
+        gap: 50px;
+    }
+}
+
+.about-image-background {
+    background: #D7D1DD;
+    width: 100%;
+    align-items: center;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 0;
+    display: flex;
+    grid-row-start: 1;
+
+    @media (min-width: 601px) {
+        margin-top: 16px;
     }
 }
 
@@ -28,10 +44,8 @@
     margin-top: 0;
 
     @media (min-width: 601px) {
-        justify-self: end;
+        /* justify-self: end; */
         grid-column-start: 2;
-        margin-top: 25px;
-
     }
 }
 
