@@ -14,14 +14,12 @@
         flex-direction: row;
         justify-content: space-between;
         text-align: left;
-        padding: 30px 150px;
+        padding: 30px 100px;
     }
 }
 
-h1 {
-    color: #1a1b1f;
-    font-size: 24px;
-    font-weight: 700;
+.JD-Logo {
+    height: 45px;
 }
 
 .nav-links {

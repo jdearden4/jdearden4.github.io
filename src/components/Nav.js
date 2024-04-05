@@ -1,14 +1,15 @@
 import { NavLink } from "react-router-dom";
+import JDLogo from '../img/JDLogo.png';
+
 function Nav() {
 
     return (
         <nav className="nav">
-            <h1 className="logo">Julia Dearden</h1>
+            <img src={JDLogo} className="JD-Logo" loading="lazy" alt="Julia Dearden Logo"/>
             <div className="nav-links">
                 <NavLink to="/" className="nav-item">Home</NavLink>
-                <NavLink to="/projects" className="nav-item" >Projects</NavLink>
+                <a href="/#dev-projects" className="nav-item">Projects</a>
                 <a href="https://jdearden.webflow.io/" target="_blank" rel="noopener noreferrer" className="nav-item">Design Portfolio</a>
-
             </div>
         </nav>
 

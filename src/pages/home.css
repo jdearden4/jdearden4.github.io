@@ -1,13 +1,21 @@
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
 .about {
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     justify-items: center;
     align-items: center;
     gap: 50px;
     @media (min-width: 601px) {
-        grid-template-columns: 5fr 3fr;
-        height: 60vh;
-
+        grid-template-columns: 1fr 1fr;
+        height: auto;
     }
 }
 
@@ -17,10 +25,13 @@
     border-radius: 16px;
     grid-row-start: 1;
     grid-column-start: 1;
+    margin-top: 0;
 
     @media (min-width: 601px) {
-        justify-self: start;
+        justify-self: end;
         grid-column-start: 2;
+        margin-top: 25px;
+
     }
 }
 
@@ -58,6 +69,16 @@
     font-size: 12px;
     font-weight: 500;
     line-height: 20px;
+}
+
+.hello-div {
+    display: flex;
+    align-items: center;
+}
+
+.JD-Name {
+    height: 75px;
+    margin-left: 4px;
 }
 
 .links-container {
