@@ -1,6 +1,6 @@
 {
   "short_name": "JD_Portfolio",
-  "name": "Julia Dearden's Development and Design Portfolio",
+  "name": "Julia Dearden's Development Portfolio",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -13,9 +13,9 @@
       "sizes": "192x192"
     },
     {
-      "src": "/android-chrome-384x384.png",
+      "src": "/android-chrome-256x256.png",
       "type": "image/png",
-      "sizes": "384x384"
+      "sizes": "256x256"
     }
   ],
   "start_url": ".",
