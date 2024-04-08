@@ -42,21 +42,22 @@
     max-width: 100%;
     height: auto;
     border-radius: 16px;
-    grid-row-start: 1;
-    grid-column-start: 1;
     margin-top: 0;
 
     @media (min-width: 601px) {
         /* justify-self: end; */
-        grid-column-start: 2;
     }
 }
 
 .about-text {
     text-align: center;
+    grid-row-start: 2;
+    grid-column-start: 1;
 
     @media (min-width: 601px) {
         text-align: left;
+        grid-row-start: 1;
+        grid-column-start: 1;
     }
 }
 
